@@ -1,0 +1,254 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #E6E2DD; */
+}
+
+html, body {
+    height: 100%; /* Ensure full height for the body */
+    width: 100%; /* Ensure full width for the body */
+    background-color: #E6E2DD;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #E6E2DD;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0; /* Stick the header to the top of the viewport */
+    z-index: 1000; /* Ensure the header stays above other elements */
+}
+
+.logoimage {
+    height: auto; /* Let the browser calculate the height automatically */
+    max-width: 50%; /* Ensure the logo fits within its container */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E2DD; /* Set white background color */
+    height: 100vh; /* Take full viewport height */
+    margin-top: 50px;
+    
+    
+    
+
+    
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    max-height: 100%; /* Ensure image doesn't exceed container height */
+    border-radius: 25%;
+    
+    
+}
+
+/* Header Font styling */
+.bodoni-moda, .selection {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.kelly-slab-regular, header p  {
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    
+  }
+
+  .kelly-slab-regular, #about, h1  {
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    
+    
+  }
+  
+header p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #474244;
+    background-color: #E6E2DD;
+    margin-bottom: 50px;
+    margin: 0;
+    margin-top: 25px;
+    
+}
+
+.fa-cart-shopping {
+    color: #474244;
+    
+}
+
+.fa-cart-shopping:hover {
+    color: #cf700f;
+    
+}
+h1 {
+    text-align: center;
+}
+header h1 {
+    font-size: 3.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: #cf700f;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: solid;
+    color: #474244;
+}
+
+
+/* body section containing about us */
+#about {
+    background-color: #E6E2DD;
+    /* margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    margin: 20vw;
+}
+
+#about-h1 {
+    font-size: 50px;
+    text-align: center;
+    }
+
+    #about-p {
+        font-size: large;
+        
+    }
+
+
+/* Contact us section */
+#contactmessage {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #E6E2DD;
+}
+/* Form Styles */
+.form-container {
+    background-color: #474244;
+    color: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #cf700f;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.fa-brands, .fa-facebook {
+    padding: 30px;
+    margin-top: -10px;
+    margin-bottom: -50px;
+    color: #E6E2DD;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: white;
+    background-color: #333333;
+    text-align: center;
+}
