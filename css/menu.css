@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E6E2DD; /* Set white background color */
+    background-color: #E6E2DD; 
     height: 100vh; /* Take full viewport height */
     margin-top: 50px;
     
