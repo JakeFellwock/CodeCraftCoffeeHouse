@@ -104,12 +104,12 @@ header p {
 /* header h1 {
     font-size: 3.5rem;
 } */
-/* 
-/* header nav ul {
+
+ header nav ul {
     list-style: none;
     font-size: 2rem;
     text-align: center;
-} */ */
+} 
 
 header nav ul li {
     display: inline;

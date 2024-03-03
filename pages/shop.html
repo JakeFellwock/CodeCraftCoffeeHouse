@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Craft Coffee</title>
-    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="shop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&family=Bungee+Spice&family=Indie+Flower&display=swap" rel="stylesheet">
@@ -15,14 +15,20 @@
 </head>
 <body>
     <header>
-        <img src="../images/logo.png" class="logoimage">
+        <img src="./logo.png" class="logoimage">
         <p>"Code & Coffee: The hackers hangout!" |  Open 24/7</p>
         <nav class="selection">
-            <ul>
-                
-               <a href="#cart"><i class="fa-solid fa-cart-shopping"></i></a>
-                
-            </ul>   
+            <nav class="selection">
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="./index.html#about">ABOUT</a></li>
+                    <li><a href="./index.html#contact">CONTACT</a></li>
+                   <a href="./shop.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    
+                </ul>   
+            </nav>
         </nav>
         
     </header>
@@ -35,30 +41,30 @@
     <section id="shop">
         
         <div class="product">
-            <img src="../images/coffeebeans.jpg" alt="Coffee beans">
+            <img src="./coffeebeans.jpg" alt="Coffee beans">
             <h2>Bag Coffee Beans</h2>
             <p>Single bag of single source coffee beans roasted to perfection</p>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="../images/mug.jpeg" alt="mug">
+            <img src="./mug.jpeg" alt="mug">
             <h2>Code Whisperer Mug</h2>
             <p>Answer the call of the code whisperer!</p>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="../images/cupcoffee.png" alt="Cup of coffee">
+            <img src="./cupcoffee.png" alt="Cup of coffee">
             <h2>Fresh Latte</h2>
             <p>Fresh hand crafted Latte</p>
             <button>Add to Cart</button>
         </div>
-        
+        <!-- Add more product divs as needed -->
     </section>
 
     <section id="cart">
         <h1>Shopping Cart</h1>
         <div class="cart-items">
-            
+            <!-- Cart items will be dynamically added here -->
         </div>
         <div class="checkout">
             <p>Total: $0.00</p>
